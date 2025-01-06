@@ -73,3 +73,11 @@ The system code for the setups at BISU and the Grandstand is identical, with the
 ![code-loop](img/image-5.png)
 
 ![code-function](img/image-6.png)
+
+# Output
+
+![picture](img/image-7.png)
+
+![picture](img/image-8.png)
+
+![picture](img/image-9.png)

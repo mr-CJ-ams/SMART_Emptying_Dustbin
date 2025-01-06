@@ -42,18 +42,12 @@ The **Real-Time Dustbin Emptying Alert System** is a practical solution designed
 
 
 **Software Components**
-___________________________________________________________
-| **Libraries**       |         **Purpose**               |
-|---------------------|-----------------------------------|
-| TinyGSM             |    Communicates with the SIM800L  |
-|                     |   GSM module.                     |
-|---------------------|-----------------------------------|
-| Blynk               |    Integrates with the Blynk app  |
-|                     |  for IoT control and monitoring.  |
-|---------------------|-----------------------------------|
-| Arduino Core for    |  Essential support for programming|
-| ESP32 S3 UNO        |  ESP32 boards.                    |
-|---------------------|-----------------------------------|
+| **Libraries**                | **Purpose**                                                             |
+|-------------------------------|-------------------------------------------------------------------------|
+| TinyGSM                      | Communicates with the SIM800L GSM module.                               |
+| Blynk                        | Integrates with the Blynk app for IoT control and monitoring.           |
+| Arduino Core for ESP32 S3 UNO | Essential support for programming ESP32 boards.                        |
+
 
 
 

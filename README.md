@@ -29,41 +29,16 @@ The **Real-Time Dustbin Emptying Alert System** is a practical solution designed
 ![GUI](img/image.png)
 
 # Hardware Components
-____________________________________________________________________________________________________
-|    **Component**    |    **Specifications**              | **Quantity** |           **purpose**            |
-|---------------------|------------------------------------|--------------|----------------------------------|
-| ESP32-S3 Dev Module | - Dual-core processor GPIO pins    |2             |   Serves as the main controller for processing sensor data and communicating with the GSM module and Blynk.                       |
-|---------------------|--------------------------|--------------|----------------------------------|
-| SIM800L GSM Module  | - Operating Voltage:     |2             |   Serves as the main controller  |
-|                     |   3.7V–4.4V              |              | for processing sensor data and   |
-|                     | - Quad-band GSM          |              | communicating with the GSM module| 
-|                     |                          |              | and Blynk.                       |
-|---------------------|--------------------------|--------------|----------------------------------|
-| Ultrasonic Sensor   | - Voltage: 5V            |6             |   Measures the distance of       |
-|                     |   - Measuring Range: 2cm–|              | objects inside the bins.         |
-|                     | 400cm                    |              |                                  | 
-|                     | - Accuracy: ±3mm         |              |                                  |
-|---------------------|--------------------------|--------------|----------------------------------|
-| LEDs                | - Voltage: 2.0V–3.2V     |6             |   Provides visual indication     |
-|                     | - Current: 20mA          |              | when a bin is full.              |
-|                     |                          |              |                                  | 
-|                     |                          |              |                                  |
-|---------------------|--------------------------|--------------|----------------------------------|
-| Power Supply for    | - Voltage: 3.7V–4.4V     |2             |                                  |
-| SIM800L             |   - Current: ≥2A         |              |                                  |
-|                     |                          |              |                                  | 
-|                     |                          |              |                                  |
-|---------------------|--------------------------|--------------|----------------------------------|
-| Breadboard          | -Standard                |2             |   Used for prototyping and       |
-|                     |                          |              | connecting all components.       |
-|                     |                          |              |                                  | 
-|                     |                          |              |                                  |
-|---------------------|--------------------------|--------------|----------------------------------|
-| Jumper Wires        | - Male-to-male, male-to- |40+           |   Connects components on         |
-|                     |   female                 |              | the breadboard.                  |
-|                     |                          |              |                                  | 
-|                     |                          |              |                                  |
-|---------------------|--------------------------|--------------|----------------------------------|
+| **Component**           | **Specifications**                               | **Quantity** | **Purpose**                                                                                      |
+|--------------------------|--------------------------------------------------|--------------|--------------------------------------------------------------------------------------------------|
+| ESP32-S3 Dev Module      | - Dual-core processor<br>- GPIO pins             | 2            | Serves as the main controller for processing sensor data and communicating with the GSM module and Blynk. |
+| SIM800L GSM Module       | - Operating Voltage: 3.7V–4.4V<br>- Quad-band GSM| 2            | Serves as the main controller for processing sensor data and communicating with the GSM module and Blynk. |
+| Ultrasonic Sensor        | - Voltage: 5V<br>- Measuring Range: 2cm–400cm<br>- Accuracy: ±3mm | 6 | Measures the distance of objects inside the bins.                                                |
+| LEDs                     | - Voltage: 2.0V–3.2V<br>- Current: 20mA         | 6            | Provides visual indication when a bin is full.                                                  |
+| Power Supply for SIM800L | - Voltage: 3.7V–4.4V<br>- Current: ≥2A           | 2            |                                                                                                  |
+| Breadboard               | - Standard                                       | 2            | Used for prototyping and connecting all components.                                              |
+| Jumper Wires             | - Male-to-male, male-to-female                  | 40+          | Connects components on the breadboard.                                                          |
+
 
 
 **Software Components**

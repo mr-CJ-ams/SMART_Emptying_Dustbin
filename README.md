@@ -30,12 +30,9 @@ The **Real-Time Dustbin Emptying Alert System** is a practical solution designed
 
 # Hardware Components
 ____________________________________________________________________________________________________
-|    **Component**    |    **Specifications**    | **Quantity** |           **purpose**            |
-|---------------------|--------------------------|--------------|----------------------------------|
-| ESP32-S3 Dev Module | - Dual-core processor    |2             |   Serves as the main controller  |
-|                     | - GPIO pins              |              | for processing sensor data and   |
-|                     |                          |              | communicating with the GSM module| 
-|                     |                          |              | and Blynk.                       |
+|    **Component**    |    **Specifications**              | **Quantity** |           **purpose**            |
+|---------------------|------------------------------------|--------------|----------------------------------|
+| ESP32-S3 Dev Module | - Dual-core processor GPIO pins    |2             |   Serves as the main controller for processing sensor data and communicating with the GSM module and Blynk.                       |
 |---------------------|--------------------------|--------------|----------------------------------|
 | SIM800L GSM Module  | - Operating Voltage:     |2             |   Serves as the main controller  |
 |                     |   3.7V–4.4V              |              | for processing sensor data and   |
